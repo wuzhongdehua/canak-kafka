@@ -1,0 +1,61 @@
+common:
+    merchantInfo:
+        - stamp
+fund:
+    fund_account:
+        - cardNo
+    fund_entrust:
+        - bankAcco
+    fund_melon:
+        - bankAcco
+    fund_valutrade:
+        - bankAcco
+insure:
+    insure_user:
+        - email
+        - mobile
+        - street
+        - address
+lcs:
+    lcs_info:
+        - mobile
+        - wid
+        - area
+        - company
+        - department
+        - position
+    user_lcs:
+        - name
+        - mobile
+order:
+    user_order:
+        - name
+ts:
+    ts_list:
+        - name
+        - mobile
+user:
+    bankcard:
+        - cardNo
+    card_verify_record:
+        - factors
+        - cardNo
+        - bankMobile
+    user:
+        - email
+        - password
+        - salt
+        - mobile
+        - name
+        - idCardNo
+        - transactionPasswd
+        - transactionPasswdSalt
+        - emailOrigin
+    user_ext:
+        - wechatOpenId
+        - wechat2OpenId
+        - wechatUnionId
+        - wechatBindOpenId
+    id_auth_record:
+        - name
+        - idno

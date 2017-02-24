@@ -1,0 +1,9 @@
+package:
+   script: 
+     - mvn clean package -P release
+   tags:
+    - java
+   artifacts:
+    expire_in: 1 week
+    paths:
+         - target/
